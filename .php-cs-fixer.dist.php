@@ -8,6 +8,6 @@ return (new PhpCsFixer\Config())
     ->setRules([
         '@Symfony' => true,
         'php_unit_method_casing' => ['case' => 'snake_case'],
-        'binary_operator_spaces' => ['operators' => ['=' => 'align_single_space']],
+        'binary_operator_spaces' => ['operators' => ['=' => 'align']],
     ])
     ->setFinder($finder);
